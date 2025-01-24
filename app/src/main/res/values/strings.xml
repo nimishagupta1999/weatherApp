@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WeatherApp2</string>
+    <string name="temperature_app">temperature App!</string>
+    <string name="submit">Submit</string>
+    <string name="enter_the_city_s_name">Enter the city\'s name</string>
+</resources>
