@@ -1,6 +1,5 @@
 package com.nimishagupta.weatherapp2.model
 
-import com.nimishagupta.weatherapp2.api.RetrofitInstance
 import com.nimishagupta.weatherapp2.api.WeatherService
 import com.nimishagupta.weatherapp2.utils.API_KEY
 import javax.inject.Inject
