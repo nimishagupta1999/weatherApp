@@ -1,6 +1,5 @@
 package com.nimishagupta.weatherapp2.ui.viewmodel
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -9,7 +8,6 @@ import com.nimishagupta.weatherapp2.api.NetworkState
 import com.nimishagupta.weatherapp2.model.WeatherApiResponse
 import com.nimishagupta.weatherapp2.model.WeatherRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
