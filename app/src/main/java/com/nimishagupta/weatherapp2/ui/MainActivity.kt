@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         //viewModel = ViewModelProvider(this)[WeatherViewModel::class.java]
 
-        if (viewModel.mutableLiveData == null) {
+        if (viewModel.mutableLiveData.value == null) {
             viewModel.fetchWeatherForCity("Bangalore")
         }
 
